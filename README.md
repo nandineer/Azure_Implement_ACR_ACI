@@ -1,6 +1,6 @@
 # Azure_Implement_ACR_ACI
 
-Create a Container Registry
+**Create a Container Registry**
 
 
 1.	Log in to the Azure portal and select “Create a resource”.
@@ -12,17 +12,18 @@ Create a Container Registry
 7.	Push the docker image to the server
 8.	Click on the repository and check whether the pushed image is found.
 
-Create a Container Instance
+**Create a Container Instance**
 
 9.	In the Azure portal, under Azure services at the top of the window, click Container instances.
 10.	On the Create container instance page, configure the following settings (leaving anything not specified at the default settings):
 
-i)	Enter resource group
-ii)	Enter the container name
-iii)	Region
-iv)	Click on ACR and select the image name
-v)	Click on review and create 
-vi)	Once the validation is successful.
+        i)	Enter resource group
+        ii)	Enter the container name
+        iii)	Region
+        iv)	Click on ACR and select the image name
+        v)	Click on review and create 
+        vi)	Once the validation is successful.
+
 11.	On the container instance overview page, copy the container instance address and enter in browser.
 12.	The application web page should be displayed.
 
