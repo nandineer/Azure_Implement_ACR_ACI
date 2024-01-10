@@ -10,10 +10,11 @@
 5.	Click on “Review + create” and then “Create”.
 6.	Click on Access Key and Connect to the server
 7.	Push the docker image to the server
-                a. docker login << login server >>
-                b. docker tag << source image name >> << dest image name >>
-                c. docker push << dest iamge name >>
-8.	Click on the repository and check whether the pushed image is found.
+      ●	docker login << login server >>
+      ●	docker tag << source image name >> << dest image name >>
+      ●	docker push << dest iamge name >>
+9.	Click on the repository and check whether the pushed image is found.
+
 
 
 **Create a Container Instance**
