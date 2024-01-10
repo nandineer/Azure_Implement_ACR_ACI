@@ -10,6 +10,9 @@
 5.	Click on “Review + create” and then “Create”.
 6.	Click on Access Key and Connect to the server
 7.	Push the docker image to the server
+                a. docker login << login server >>
+  	        b. docker tag << source image name >> << dest image name >>
+  	        c. docker push << dest iamge name >>
 8.	Click on the repository and check whether the pushed image is found.
 
 **Create a Container Instance**
@@ -20,7 +23,7 @@
         i)	Enter resource group
         ii)	Enter the container name
         iii)	Region
-        iv)	Click on ACR and select the image name
+        iv)	Click on ACR and select the image name that is pushed
         v)	Click on review and create 
         vi)	Once the validation is successful.
 
